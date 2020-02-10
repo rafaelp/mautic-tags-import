@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %title Mautic Import Tags
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type" }
+  %body
+    #container
+      #content= yield
+      #footer
+        %p#legal= "&mdash; &copy; #{Time.now.strftime('%Y')} &mdash;"

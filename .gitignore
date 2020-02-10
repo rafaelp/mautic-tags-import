@@ -1,0 +1,6 @@
+cache/**/*.yml
+logs/**/*.log
+.ruby-gemset
+config.json
+.env
+contacts.csv
